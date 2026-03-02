@@ -1,8 +1,8 @@
 package com.meowu.starter.domain.commons.entity;
 
-public interface Versional{
+public interface Versional<V>{
 
-    String getVersion();
+    V getVersion();
 
-    void setVersion(String version);
+    void setVersion(V version);
 }
